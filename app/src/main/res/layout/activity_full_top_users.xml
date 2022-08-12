@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FullTopUsersActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALL TOP USERS"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#80DEEA" />
+
+    <ListView
+        android:id="@+id/listTopUsers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:divider="#808ACB"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="false"
+        />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false" >
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ALL CHANNELS"-->
+<!--        android:textColor="#333a44"-->
+<!--        android:gravity="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:background="@color/white"-->
+<!--        android:textSize="20dp"/>-->
+
+    <ListView
+        android:id="@+id/allChannels"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#808ACB"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="false"
+        />
+</LinearLayout>
